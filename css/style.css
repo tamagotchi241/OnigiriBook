@@ -1,0 +1,143 @@
+p {
+  color: black; }
+
+h {
+  color: #008E9B;
+  weight: bold; }
+
+.span-1 {
+  width: 20%; }
+
+.span-2 {
+  width: 40%; }
+
+.span-3 {
+  width: 60%; }
+
+.span-4 {
+  width: 80%; }
+
+.span-5 {
+  width: 100%; }
+
+.logoBarranav {
+  height: 70px; }
+
+.barraNav {
+  background-color: #008E9B; }
+
+.paddingLR {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.barraNavTexto a {
+  font-size: 15.4px;
+  color: white;
+  padding-right: 5px; }
+
+.barraNavTexto {
+  align-items: center;
+  text-decoration: none; }
+  .barraNavTexto__dropdown {
+    background-color: #008E9B;
+    border: none;
+    texto-align: center;
+    color: white; }
+
+.bodyPrincipalSaludo {
+  padding-top: 100px; }
+
+.bodyPrincipal {
+  background-color: #FFF7EC;
+  color: #1a535c;
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+  .bodyPrincipal__header {
+    background-color: #FFF7EC;
+    weight: bold;
+    font-size: 20px; }
+  .bodyPrincipal__parrafo {
+    font-size: 16px; }
+
+.barranavFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #1a535c;
+  width: 100%;
+  height: auto;
+  justify-content: space-around; }
+  .barranavFooter__linkInternos a {
+    font-size: 14px;
+    color: white; }
+  .barranavFooter__linkRedesSociales {
+    color: white;
+    align-items: center;
+    padding-bottom: 10px; }
+
+.linkInternos__list {
+  display: flex;
+  flex-direction: column; }
+  .linkInternos__list ul {
+    margin: 0; }
+
+.linkRedesSociales__parrafo {
+  font-size: 16.8px; }
+
+.linkRedesSociales__icons {
+  width: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+  .linkRedesSociales__icons img {
+    padding-right: 5px; }
+
+.boletin {
+  font-size: 10px;
+  color: white; }
+  .boletin__label {
+    font-size: 10px;
+    weight: bold; }
+  .boletin__input {
+    width: 220px;
+    border-radius: 15px;
+    border: transparent;
+    height: 25px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 2px; }
+
+.inputEmail__Suscripcion {
+  border: transparent;
+  border: 0;
+  height: 20px;
+  width: 200px; }
+
+.boletinboton__input {
+  font-size: 10px;
+  border-radius: 25%;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white; }
+
+.seccionMedia__texto {
+  font-size: 16;
+  font-family: roboto, monospace; }
+
+.carouselmensaje__header {
+  color: black;
+  font-weight: bold;
+  font-size: 14px; }
+
+.carouselmensaje__parrafo {
+  font-size: 12px; }
+
+.linkInterno{
+  color: #008E9B!important;
+  font-weight: bold!important;
+}
+
+.buttonHamburguesa {
+  border-color: rgba(255, 255, 255, 0.1); }
+  .buttonHamburguesa__mobile {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }

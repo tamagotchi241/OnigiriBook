@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Mono', monospace; 
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0!important;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.colNav{
+  height: 6.25rem;
+  padding: 0!important;
+}
+
+.navbar{
+    margin-bottom: 0px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+a:visited {
+  color:white;
+  }
+#linkInterno{
+  color: black!important;
+  font-weight: bold!important;
+}
+a:any-link {
+  text-decoration: none;
+  color: white;
+}
+body{
+  background-color: #FFF7EC;
+  color: #1a6e7a;
+  min-width: fit-content!important;
+}
+.container-fluid{
+  padding: 0!important;
+  margin: 0px !important;
+}
+h2{
+  font-size: 1.5rem;
+}
+/* CSS para nav bar */
+.bg-dark, .footer{
+ background-color: #008E9B!important;
+}
+header{
+  margin-bottom: 7.5rem;
+}
+header a:hover, .dropdown-item:hover, .iconosRedes  i:hover{
+  color: whitesmoke!important;
+  transition: 200ms linear;
+  text-decoration: none;
+  background:#008E9B}
+.logoNav{
+  height: 4.375rem;
+}
+.nav-item , .dropdown-menu{
+  background:#008E9B;
+}
+.dropdown-menu{
+  border-width: 0;
+  border-color: transparent;
+}
+.dropdown-item, .iconosRedes i{
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+
+
+/* CSS para footer */
+.footer{
+  color: white;
+  font-size: 0.825rem;
+  width: 100%;
+}
+.footerPadding{
+  padding: 0;
+}
+.pagesinFooter {
+  justify-content: flex-start;
+  height: 6.25rem;
+}
+.textoRedesSociales{
+  padding-top: 1rem;
+}
+.iconFooter{
+  width: 2rem;
+  height: 2rem;
+  padding-left: 0.125rem;
+}
+.iconosRedes li{
+  padding: 0 0.4rem;
+  list-style: none;
+}
+.iconosRedes  i {
+  font-size: 1.4rem; }
+
+.emailSuscripcion{
+  font-size: 0.625rem;
+  width: 14rem;
+}
+/* CSS para Pictures */
+.imgBlog{
+  height: 25rem;
+  width: 100%;
+}
+.imgContacto{
+  height: 20rem;
+}
+
+.imgSobremi{
+  height: 30rem;
+  width: auto;
+}
+
+/* CSS Carousel  */
+
+.carousel {
+  background: lightgrey;
+  height: 36.5rem;
+  width: 62.5rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  background: lightgrey;
+  width: 62.5rem;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  padding-bottom:3.125rem;
+}
+
+.carousel-control.left {
+  margin-left: 31.25rem;
+}
+
+
+.containerCarrusel{
+  padding: 0;
+}
+.carousel-inner{
+  height: 35.25rem;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.carousel-item > img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+    
+/* RESPONSIVE CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {
+  body{
+    position: relative;
+    overflow-x: hidden!important;
+  }
+  .footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center ;
+  }
+  .footerPadding{
+  padding: 0;
+  height: 6.25rem;
+  }
+  .pagesinFooter{
+  text-align: left;
+  }
+  .pagesinFooter{
+    display: flex;
+    height: 0.625rem;
+  }
+  .carousel-inner{
+  height: 17rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }  
+  .carousel-caption {
+  bottom: 5rem;
+  background: lightgrey;
+  width: auto;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  padding-bottom:5.125rem;
+  }
+  .carousel {
+  background: lightgrey;
+  height: 19.5rem;
+  width: 25.5rem;
+  } 
+  .carousel-caption {
+  display: none!important;
+  }
+  .imgBlog{
+  height: 12rem;
+  width: auto;
+  
+}
+/* RESPONSIVE CSS mobile*/
+@media only screen 
+and (max-width: 375px) {
+  body{
+  position: relative;
+  overflow-x: hidden!important;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center ;
+  }
+  .pagesinFooter{
+    display: flex;
+  }
+  .textoRedesSociales{
+  padding-top: 0;
+  }
+  .invisibleMediaQuery{
+    display:none!important;
+  }
+  .bodyPrincipal{
+    width: 100%;
+  }
+  .row{
+    margin: 0!!important;
+  }
+.carousel-inner{
+  height: 15rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}  
+  .carousel-caption {
+  bottom: 3rem;
+  background: lightgrey;
+  width: auto;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  padding-bottom:3.125rem;
+}
+.carousel {
+  background: lightgrey;
+  height: 17.5rem;
+  width: 23.5rem;
+}
+ .imgSobremi{
+  height: 15rem;
+}  
+.imgBlog{
+  height: 12rem;
+  width: 16rem;
+} 
+
+}

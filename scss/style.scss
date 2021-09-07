@@ -1,0 +1,162 @@
+@import "conditionals";
+@import "bucles";
+
+$backgroundNavbar: #008E9B;
+$navbarLogoHeight: 200px;
+$logoFontSize: 14px;
+$logoFontColor: white;
+$colorP: black;
+$backgroundBody: #FFF7EC;
+$bodyFontColor:rgb(26, 83, 92);
+$iconsWidth: 300px;
+$carouselFontSize: 100px;
+
+
+.logoBarranav{
+	height:($navbarLogoHeight/2)-30;
+} 
+
+.barraNav{
+	background-color: $backgroundNavbar;
+}
+.paddingLR{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+
+.barraNavTexto a{
+				font-size: $logoFontSize*1.1;
+				color: $logoFontColor;
+				padding-right:5px;
+			}	
+.barraNavTexto{	
+			align-items: center;
+			text:{
+				decoration:none;
+			}
+			
+			&__dropdown{
+				background-color:$backgroundNavbar;
+				border: none;
+				texto-align:center;
+				color:white;
+			}
+}
+.bodyPrincipalSaludo{
+	padding-top: 100px;
+}
+.bodyPrincipal{
+	background-color:$backgroundBody;
+	color:$bodyFontColor;
+	padding-right: 0!important;
+	padding-left:0!important;
+	&__header{
+			background-color:$backgroundBody;
+			weight: bold;
+			font-size:20px
+	}
+	&__parrafo{
+			font-size:16px;
+
+	}
+
+}
+
+.barranavFooter{
+	display: flex;
+	flex-direction: row;	
+	align-items: flex-start;
+	background-color:rgb(26, 83, 92);
+	width: 100%;
+	height: auto;
+	justify-content: space-around;
+	&__linkInternos a{
+					font-size: $logoFontSize;
+					color:$logoFontColor;
+	}
+	&__linkRedesSociales{
+					color:$logoFontColor;
+					align-items: center;
+					padding-bottom: 10px;
+	}
+}
+
+.linkInternos{
+	&__list{
+			display: flex;
+			flex-direction: column;
+			ul{
+			margin: 0;
+			}
+	}
+}
+.linkRedesSociales{
+	&__parrafo{
+				font-size: $logoFontSize*1.2;
+	}
+	&__icons{
+				width:$iconsWidth/10;
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+				img{
+				padding-right: 5px;
+				}
+	}
+}
+.boletin{
+	font-size: 10px;
+	color:white;
+	&__label{
+				font-size: 10px;
+				weight:bold;
+	}
+	&__input{
+				width: 220px;
+				border-radius: 15px;
+				border:transparent;
+				height: 25px;
+				background-color: white;
+				padding-left:15px;
+				padding-top:2px;
+	}
+}
+.inputEmail{
+	&__Suscripcion{
+				border:transparent;
+				border:0;
+				height:20px;
+				width:200px
+}
+}
+.boletinboton{
+	&__input{
+				font-size: 10px;
+				border-radius: 25%;
+				border:1px solid black;
+				border-radius: 15px;
+				background-color: $logoFontColor;
+	}
+}
+.seccionMedia{
+	&__texto{
+				font-size:16;
+				font-family: roboto, monospace;
+	}
+}
+.carouselmensaje{
+	&__header{
+				color: black;
+				font-weight: bold;
+				font-size: $carouselFontSize*0.14;
+	}
+	&__parrafo{
+				font-size: $carouselFontSize*0.12;
+	}
+}
+.buttonHamburguesa{
+	border-color: rgba(255,255,255,.1);
+	&__mobile{
+				background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+	}
+}
