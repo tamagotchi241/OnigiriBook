@@ -1,17 +1,15 @@
 /*  CSS para nav bar */
 $backgroundNavbar: #008E9B;
-$navbarLogoHeight: 200px;
-$logoFontSize: 14px;
+$navbarLogoHeight: 4.375rem;
+$logoFontSize: 1rem;
 $logoFontColor: white;
 
 .barraNav{
   background-color: $backgroundNavbar;
 }
 .logoBarranav{
-  height:($navbarLogoHeight/2)-30;
+  height:$navbarLogoHeight;
 } 
-
-
 .barraNavTexto a{
         font-size: $logoFontSize*1.1;
         color: $logoFontColor;
@@ -22,7 +20,6 @@ $logoFontColor: white;
       text:{
         decoration:none;
       }
-      
       &__dropdown{
         background-color:$backgroundNavbar;
         border: none;
@@ -31,11 +28,8 @@ $logoFontColor: white;
       }
 }
 
-
 /*  
 .bg-dark, .footer{
- background-color: #008E9B!important;
-}
 header{ 
   margin-bottom: 7.5rem;
 }
@@ -43,12 +37,10 @@ header a:hover, .dropdown-item:hover, .iconosRedes  i:hover{
   color: whitesmoke!important;
   transition: 200ms linear;
   text-decoration: none;
-  background:#008E9B}
-.logoNav{
-  height: 4.375rem;
+  background:$backgroundNavbar}
 }
 .nav-item , .dropdown-menu{
-  background:#008E9B;
+  background:$backgroundNavbar;
 }
 .dropdown-menu{
   border-width: 0;

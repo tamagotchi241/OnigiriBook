@@ -3,14 +3,19 @@
 @import "index";
 @import "navbar";
 
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Mono', monospace; 
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0!important;
+}
 
 $colorP: black;
 $backgroundBody: #FFF7EC;
 $bodyFontColor:rgb(26, 83, 92);
 $iconsWidth: 300px;
 $carouselFontSize: 100px;
-
-
 
 
 
