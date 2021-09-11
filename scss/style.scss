@@ -1,10 +1,9 @@
 @import "conditionals";
 @import "bucles";
+@import "index";
+@import "navbar";
 
-$backgroundNavbar: #008E9B;
-$navbarLogoHeight: 200px;
-$logoFontSize: 14px;
-$logoFontColor: white;
+
 $colorP: black;
 $backgroundBody: #FFF7EC;
 $bodyFontColor:rgb(26, 83, 92);
@@ -12,36 +11,14 @@ $iconsWidth: 300px;
 $carouselFontSize: 100px;
 
 
-.logoBarranav{
-	height:($navbarLogoHeight/2)-30;
-} 
 
-.barraNav{
-	background-color: $backgroundNavbar;
-}
+
+
 .paddingLR{
 	padding-left:0!important;
 	padding-right:0!important;
 }
 
-.barraNavTexto a{
-				font-size: $logoFontSize*1.1;
-				color: $logoFontColor;
-				padding-right:5px;
-			}	
-.barraNavTexto{	
-			align-items: center;
-			text:{
-				decoration:none;
-			}
-			
-			&__dropdown{
-				background-color:$backgroundNavbar;
-				border: none;
-				texto-align:center;
-				color:white;
-			}
-}
 .bodyPrincipalSaludo{
 	padding-top: 100px;
 }
