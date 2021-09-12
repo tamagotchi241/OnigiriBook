@@ -1,13 +1,13 @@
 /*  CSS para nav bar */
 $backgroundNavbar: #008E9B;
-$navbarLogoHeight: 4.375rem;
+$navbarLogoHeight: 4.37rem;
 $logoFontSize: 1rem;
 $logoFontColor: white;
 
 .barraNav{
   background-color: $backgroundNavbar;
 }
-.logoBarranav{
+.logoNav{
   height:$navbarLogoHeight;
 } 
 .barraNavTexto a{
@@ -28,17 +28,6 @@ $logoFontColor: white;
       }
 }
 
-/*  
-.bg-dark, .footer{
-header{ 
-  margin-bottom: 7.5rem;
-}
-header a:hover, .dropdown-item:hover, .iconosRedes  i:hover{
-  color: whitesmoke!important;
-  transition: 200ms linear;
-  text-decoration: none;
-  background:$backgroundNavbar}
-}
 .nav-item , .dropdown-menu{
   background:$backgroundNavbar;
 }
@@ -53,9 +42,11 @@ header a:hover, .dropdown-item:hover, .iconosRedes  i:hover{
   height: 6.25rem;
   padding: 0!important;
 }
-
+header{ 
+  margin-bottom: 7.5rem;
+}
 .navbar{
     margin-bottom: 0px !important;
     padding-top: 0;
     padding-bottom: 0;
-  }*/
+  }

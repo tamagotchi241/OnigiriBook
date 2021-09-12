@@ -1,0 +1,7 @@
+$backgroundNavbar: #008E9B;
+header a:hover, .dropdown-item:hover, .iconosRedes  i:hover{
+  color: whitesmoke!important;
+  transition: 200ms linear;
+  text-decoration: none;
+  background:$backgroundNavbar;
+}
