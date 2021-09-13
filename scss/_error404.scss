@@ -1,0 +1,39 @@
+#filaTexto404{
+	height: 15rem;
+}
+#texto404 {
+	padding-top: 1rem;
+	text-align: center;
+}
+#texto404 h2{
+	font-size:3rem;
+}
+#texto404 p{
+	font-size:2.5rem;
+}
+.logo404{
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+/* RESPONSIVE 404 CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {
+	#filaTexto404{
+		height: 7.5rem;
+	}
+	#texto404 h2{
+		font-size:2rem;
+	}
+	#texto404 p{
+		font-size:1.5rem;
+	}
+	.logo404{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+	.logo404png{
+	padding: 0 0.6rem 0 0.6rem;
+  	}	
+}

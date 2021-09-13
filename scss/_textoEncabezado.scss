@@ -1,0 +1,38 @@
+.encabezadoSuperior{
+	padding: 1rem 0 2rem 0;
+}
+.encabezadoSeccionInferior{
+	padding: 2rem 0 2rem 0;
+}
+.textoSuperior{
+	padding-bottom:1.5rem;
+	text-align:center;
+}
+
+.encabezadoH2{
+	padding: 0 0 1rem 0;
+}
+
+.textoBlog, .textoP{
+	padding: 1rem 0 1rem 0;
+	text-align:justify;
+}
+
+.lista{
+	list-style-type:none;
+}
+
+/* RESPONSIVE CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {  
+  h1{
+  font-size:1.9rem;
+  }
+  h3{
+  font-size:1.5rem;
+  }
+  p{
+  font-size:1rem;
+  }
+}

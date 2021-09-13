@@ -1,12 +1,74 @@
-/* CSS para Pictures */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto+Mono:wght@300&display=swap");
+.encabezadoSuperior {
+  padding: 1rem 0 2rem 0; }
+
+.encabezadoSeccionInferior {
+  padding: 2rem 0 2rem 0; }
+
+.textoSuperior {
+  padding-bottom: 1.5rem;
+  text-align: center; }
+
+.encabezadoH2 {
+  padding: 0 0 1rem 0; }
+
+.textoBlog, .textoP {
+  padding: 1rem 0 1rem 0;
+  text-align: justify; }
+
+.lista {
+  list-style-type: none; }
+
+/* RESPONSIVE CSS tablet */
+@media only screen and (min-device-width: 376px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.9rem; }
+  h3 {
+    font-size: 1.5rem; }
+  p {
+    font-size: 1rem; } }
+
+#filaTexto404 {
+  height: 15rem; }
+
+#texto404 {
+  padding-top: 1rem;
+  text-align: center; }
+
+#texto404 h2 {
+  font-size: 3rem; }
+
+#texto404 p {
+  font-size: 2.5rem; }
+
+.logo404 {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+
+/* RESPONSIVE 404 CSS tablet */
+@media only screen and (min-device-width: 376px) and (max-width: 768px) {
+  #filaTexto404 {
+    height: 7.5rem; }
+  #texto404 h2 {
+    font-size: 2rem; }
+  #texto404 p {
+    font-size: 1.5rem; }
+  .logo404 {
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+  .logo404png {
+    padding: 0 0.6rem 0 0.6rem; } }
+
+/* CSS para Pictures */
 .imgBlog {
-  height: 25rem;
-  width: 100%; }
+  height: 20rem;
+  width: auto;
+  padding-bottom: 1rem; }
 
 .imgContacto {
-  height: 20rem; }
+  height: 20rem;
+  justify-content: center; }
 
 .imgSobremi {
   height: 30rem;
@@ -21,10 +83,12 @@
 /* RESPONSIVE CSS mobile*/
 @media only screen and (max-width: 375px) {
   .imgSobremi {
-    height: 15rem; }
-  .imgBlog {
-    height: 12rem;
-    width: 16rem; } }
+    height: 15rem; } }
+
+/* RESPONSIVE CSS iphone5*/
+@media only screen and (max-width: 374px) {
+  .imgBlogVistaMobile {
+    width: 21.4rem; } }
 
 header a:hover, .dropdown-item:hover, .iconosRedes i:hover {
   color: whitesmoke !important;
@@ -125,27 +189,27 @@ header {
     text-align: left; }
   .pagesinFooter {
     display: flex;
-    height: 0.625rem; } }
+    height: 0.625rem; }
+  .invisibleMediaQuery {
+    display: none !important; } }
 
 /* RESPONSIVE footer CSS mobile*/
 @media only screen and (max-width: 375px) {
-  .footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center; }
   .pagesinFooter {
     display: flex; }
   .textoRedesSociales {
-    padding-top: 0; }
-  .invisibleMediaQuery {
-    display: none !important; } }
+    padding-top: 0; } }
+
+/* RESPONSIVE CSS iphone5*/
+@media only screen and (max-width: 320px) {
+  .footer {
+    width: 21.2rem; } }
 
 /*  CSS general*/
 * {
   box-sizing: border-box;
   font-family: 'Fira Mono', monospace;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0;
   margin: 0 !important; }
 
@@ -168,6 +232,3 @@ body {
 .container-fluid {
   padding: 0 !important;
   margin: 0px !important; }
-
-h2 {
-  font-size: 1.5rem; }

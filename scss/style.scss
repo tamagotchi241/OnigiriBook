@@ -1,4 +1,5 @@
-@import "index";
+@import "textoEncabezado";
+@import "error404";
 @import "pictures";
 @import "animaciones";
 @import "navbar";
@@ -10,7 +11,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Fira Mono', monospace; 
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0;
   margin: 0!important;
 }
@@ -35,10 +36,4 @@ body{
   padding: 0!important;
   margin: 0px !important;
 }
-h2{
-  font-size: 1.5rem;
-}
-
-
-
 
