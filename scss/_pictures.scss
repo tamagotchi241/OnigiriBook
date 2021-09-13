@@ -1,0 +1,34 @@
+/* CSS para Pictures */
+.imgBlog{
+  height: 25rem;
+  width: 100%;
+}
+.imgContacto{
+  height: 20rem;
+}
+
+.imgSobremi{
+  height: 30rem;
+  width: auto;
+}
+    
+/* RESPONSIVE CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {  
+  .imgBlog{
+  height: 12rem;
+  width: auto;
+	}
+}
+/* RESPONSIVE CSS mobile*/
+@media only screen 
+and (max-width: 375px) { 
+	.imgSobremi{
+	  height: 15rem;
+	}  
+	.imgBlog{
+	  height: 12rem;
+	  width: 16rem;
+	} 
+} 

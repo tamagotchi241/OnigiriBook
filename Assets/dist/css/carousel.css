@@ -1,43 +1,3 @@
-
-a:visited {
-  color:white;
-  }
-#linkInterno{
-  color: black!important;
-  font-weight: bold!important;
-}
-a:any-link {
-  text-decoration: none;
-  color: white;
-}
-body{
-  background-color: #FFF7EC;
-  color: #1a6e7a;
-  min-width: fit-content!important;
-}
-.container-fluid{
-  padding: 0!important;
-  margin: 0px !important;
-}
-h2{
-  font-size: 1.5rem;
-}
-
-
-/* CSS para Pictures */
-.imgBlog{
-  height: 25rem;
-  width: 100%;
-}
-.imgContacto{
-  height: 20rem;
-}
-
-.imgSobremi{
-  height: 30rem;
-  width: auto;
-}
-
 /* CSS Carousel  */
 
 .carousel {
@@ -59,8 +19,6 @@ h2{
 .carousel-control.left {
   margin-left: 31.25rem;
 }
-
-
 .containerCarrusel{
   padding: 0;
 }
@@ -86,24 +44,7 @@ h2{
     position: relative;
     overflow-x: hidden!important;
   }
-  .footer{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items:center ;
-  }
-  .footerPadding{
-  padding: 0;
-  height: 6.25rem;
-  }
-  .pagesinFooter{
-  text-align: left;
-  }
-  .pagesinFooter{
-    display: flex;
-    height: 0.625rem;
-  }
+  
   .carousel-inner{
   height: 17rem;
   width: 100%;
@@ -127,10 +68,6 @@ h2{
   .carousel-caption {
   display: none!important;
   }
-  .imgBlog{
-  height: 12rem;
-  width: auto;
-  
 }
 /* RESPONSIVE CSS mobile*/
 @media only screen 
@@ -139,21 +76,7 @@ and (max-width: 375px) {
   position: relative;
   overflow-x: hidden!important;
   }
-  .footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items:center ;
-  }
-  .pagesinFooter{
-    display: flex;
-  }
-  .textoRedesSociales{
-  padding-top: 0;
-  }
-  .invisibleMediaQuery{
-    display:none!important;
-  }
+  
   .bodyPrincipal{
     width: 100%;
   }

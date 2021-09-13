@@ -1,5 +1,31 @@
+/* CSS para Pictures */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto+Mono:wght@300&display=swap");
+.imgBlog {
+  height: 25rem;
+  width: 100%; }
+
+.imgContacto {
+  height: 20rem; }
+
+.imgSobremi {
+  height: 30rem;
+  width: auto; }
+
+/* RESPONSIVE CSS tablet */
+@media only screen and (min-device-width: 376px) and (max-width: 768px) {
+  .imgBlog {
+    height: 12rem;
+    width: auto; } }
+
+/* RESPONSIVE CSS mobile*/
+@media only screen and (max-width: 375px) {
+  .imgSobremi {
+    height: 15rem; }
+  .imgBlog {
+    height: 12rem;
+    width: 16rem; } }
+
 header a:hover, .dropdown-item:hover, .iconosRedes i:hover {
   color: whitesmoke !important;
   transition: 200ms linear;
@@ -115,6 +141,7 @@ header {
   .invisibleMediaQuery {
     display: none !important; } }
 
+/*  CSS general*/
 * {
   box-sizing: border-box;
   font-family: 'Fira Mono', monospace;
@@ -122,99 +149,25 @@ header {
   padding: 0;
   margin: 0 !important; }
 
-.paddingLR {
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
-
-.bodyPrincipalSaludo {
-  padding-top: 100px; }
-
-.bodyPrincipal {
-  background-color: #FFF7EC;
-  color: #1a535c;
-  padding-right: 0 !important;
-  padding-left: 0 !important; }
-  .bodyPrincipal__header {
-    background-color: #FFF7EC;
-    weight: bold;
-    font-size: 20px; }
-  .bodyPrincipal__parrafo {
-    font-size: 16px; }
-
-.barranavFooter {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  background-color: #1a535c;
-  width: 100%;
-  height: auto;
-  justify-content: space-around; }
-  .barranavFooter__linkInternos a {
-    font-size: 1rem;
-    color: white; }
-  .barranavFooter__linkRedesSociales {
-    color: white;
-    align-items: center;
-    padding-bottom: 10px; }
-
-.linkInternos__list {
-  display: flex;
-  flex-direction: column; }
-  .linkInternos__list ul {
-    margin: 0; }
-
-.linkRedesSociales__parrafo {
-  font-size: 1.2rem; }
-
-.linkRedesSociales__icons {
-  width: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start; }
-  .linkRedesSociales__icons img {
-    padding-right: 5px; }
-
-.boletin {
-  font-size: 10px;
+a:visited {
   color: white; }
-  .boletin__label {
-    font-size: 10px;
-    weight: bold; }
-  .boletin__input {
-    width: 220px;
-    border-radius: 15px;
-    border: transparent;
-    height: 25px;
-    background-color: white;
-    padding-left: 15px;
-    padding-top: 2px; }
 
-.inputEmail__Suscripcion {
-  border: transparent;
-  border: 0;
-  height: 20px;
-  width: 200px; }
+#linkInterno {
+  color: black !important;
+  font-weight: bold !important; }
 
-.boletinboton__input {
-  font-size: 10px;
-  border-radius: 25%;
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: white; }
+a:any-link {
+  text-decoration: none;
+  color: white; }
 
-.seccionMedia__texto {
-  font-size: 16;
-  font-family: roboto, monospace; }
+body {
+  background-color: #FFF7EC;
+  color: #1a6e7a;
+  min-width: fit-content !important; }
 
-.carouselmensaje__header {
-  color: black;
-  font-weight: bold;
-  font-size: 14px; }
+.container-fluid {
+  padding: 0 !important;
+  margin: 0px !important; }
 
-.carouselmensaje__parrafo {
-  font-size: 12px; }
-
-.buttonHamburguesa {
-  border-color: rgba(255, 255, 255, 0.1); }
-  .buttonHamburguesa__mobile {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+h2 {
+  font-size: 1.5rem; }
