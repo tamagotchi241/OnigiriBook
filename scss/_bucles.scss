@@ -1,8 +1,0 @@
-$class: span!default;
-$start-width: 20%;
-
-@for $i from 1 through 5{
-		.#{$class}-#{$i} {
-		width:  $start-width*$i;
-	}
-}

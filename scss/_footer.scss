@@ -34,3 +34,46 @@
   font-size: 0.625rem;
   width: 14rem;
 }
+
+/* RESPONSIVE footer CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {
+.footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center ;
+  }
+  .footerPadding{
+  padding: 0;
+  height: 6.25rem;
+  }
+  .pagesinFooter{
+  text-align: left;
+  }
+  .pagesinFooter{
+    display: flex;
+    height: 0.625rem;
+  }
+}
+/* RESPONSIVE footer CSS mobile*/
+@media only screen 
+and (max-width: 375px) {
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center ;
+  }
+  .pagesinFooter{
+    display: flex;
+  }
+  .textoRedesSociales{
+  padding-top: 0;
+  }
+  .invisibleMediaQuery{
+    display:none!important;
+  }
+ }
