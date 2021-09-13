@@ -24,38 +24,6 @@ h2{
 }
 
 
-/* CSS para footer */
-.footer{
-  color: white;
-  font-size: 0.825rem;
-  width: 100%;
-}
-.footerPadding{
-  padding: 0;
-}
-.pagesinFooter {
-  justify-content: flex-start;
-  height: 6.25rem;
-}
-.textoRedesSociales{
-  padding-top: 1rem;
-}
-.iconFooter{
-  width: 2rem;
-  height: 2rem;
-  padding-left: 0.125rem;
-}
-.iconosRedes li{
-  padding: 0 0.4rem;
-  list-style: none;
-}
-.iconosRedes  i {
-  font-size: 1.4rem; }
-
-.emailSuscripcion{
-  font-size: 0.625rem;
-  width: 14rem;
-}
 /* CSS para Pictures */
 .imgBlog{
   height: 25rem;
