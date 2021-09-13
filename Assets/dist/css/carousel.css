@@ -103,12 +103,4 @@ and (max-width: 375px) {
   height: 17.5rem;
   width: 23.5rem;
 }
- .imgSobremi{
-  height: 15rem;
-}  
-.imgBlog{
-  height: 12rem;
-  width: 16rem;
-} 
-
 }
