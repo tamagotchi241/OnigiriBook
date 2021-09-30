@@ -269,5 +269,13 @@
     "readable-stream": "^2.3.7",
     "normalize-url": "^4.5.1"
   },
-  "description": "Este es mi primer proyecto de desarrollo web. Onigiri Book es un espacio para todos aquellos interesados en el idioma japonés y cultura japonesa. Asimismo, ofrece el servicio de coaching para todos aquellos interesados en aprender idiomas."
+  "description": "Este es mi primer proyecto de desarrollo web. Onigiri Book es un espacio para todos aquellos interesados en el idioma japonés y cultura japonesa. Asimismo, ofrece el servicio de coaching para todos aquellos interesados en aprender idiomas.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamagotchi241/OnigiriBook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tamagotchi241/OnigiriBook/issues"
+  },
+  "homepage": "https://github.com/tamagotchi241/OnigiriBook#readme"
 }
