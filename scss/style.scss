@@ -1,0 +1,39 @@
+@import "textoEncabezado";
+@import "error404";
+@import "pictures";
+@import "animaciones";
+@import "navbar";
+@import "footer";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto+Mono:wght@300&display=swap');
+
+/*  CSS general*/
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Mono', monospace; 
+  font-size: 1rem;
+  padding: 0;
+  margin: 0!important;
+}
+
+a:visited {
+  color:white;
+  }
+#linkInterno{
+  color: black!important;
+  font-weight: bold!important;
+}
+a:any-link {
+  text-decoration: none;
+  color: white;
+}
+body{
+  background-color: #FFF7EC;
+  color: #1a6e7a;
+  min-width: fit-content!important;
+}
+.container-fluid{
+  padding: 0!important;
+  margin: 0px !important;
+}
+

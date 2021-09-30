@@ -1,0 +1,81 @@
+/* CSS para footer */
+
+.footer{
+  background-color: #008E9B;
+  color: white;
+  font-size: 0.825rem;
+  width: 100%;
+  margin-bottom: 7.5rem;
+}
+.footerPadding{
+  padding: 0;
+}
+.pagesinFooter {
+  justify-content: flex-start;
+  height: 6.25rem;
+  padding-bottom: 1rem;
+}
+.textoRedesSociales{
+  padding-top: 1rem;
+}
+.iconFooter{
+  width: 2rem;
+  height: 2rem;
+  padding-left: 0.125rem;
+}
+.iconosRedes li{
+  padding: 0 0.4rem;
+  list-style: none;
+}
+.iconosRedes  i {
+  font-size: 1.4rem; }
+
+.emailSuscripcion{
+  font-size: 0.625rem;
+  width: 14rem;
+}
+
+/* RESPONSIVE footer CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {
+.footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center ;
+  }
+  .footerPadding{
+  padding: 0;
+  height: 6.25rem;
+  }
+  .pagesinFooter{
+  text-align: left;
+  }
+  .pagesinFooter{
+    display: flex;
+    height: 0.625rem;
+  }
+  .invisibleMediaQuery{
+    display:none!important;
+  }
+}
+/* RESPONSIVE footer CSS mobile*/
+@media only screen 
+and (max-width: 375px) {
+  .pagesinFooter{
+    display: flex;
+  }
+  .textoRedesSociales{
+  padding-top: 0;
+  }
+ }
+
+/* RESPONSIVE CSS iphone5*/
+@media only screen 
+and (max-width: 320px) { 
+  .footer{
+    width: 21.2rem;
+  }   
+} 

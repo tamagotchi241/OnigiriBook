@@ -1,0 +1,39 @@
+/* CSS para Pictures */
+.imgBlog{
+  height: 20rem;
+  width: auto;
+  padding-bottom: 1rem;
+}
+.imgContacto{
+  height: 20rem;
+  justify-content:center;
+}
+
+.imgSobremi{
+  height: 30rem;
+  width: auto;
+}
+    
+/* RESPONSIVE CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {  
+  .imgBlog{
+  height: 12rem;
+  width: auto;
+	}
+}
+/* RESPONSIVE CSS mobile*/
+@media only screen 
+and (max-width: 375px) { 
+	.imgSobremi{
+	  height: 15rem;
+	}   
+} 
+/* RESPONSIVE CSS iphone5*/
+@media only screen 
+and (max-width: 374px) { 
+	.imgBlogVistaMobile{
+	  width: 21.4rem;
+	}   
+} 

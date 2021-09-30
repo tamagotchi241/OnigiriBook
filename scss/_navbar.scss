@@ -1,0 +1,52 @@
+/*  CSS para nav bar */
+$backgroundNavbar: #008E9B;
+$navbarLogoHeight: 4.37rem;
+$logoFontSize: 1rem;
+$logoFontColor: white;
+
+.barraNav{
+  background-color: $backgroundNavbar;
+}
+.logoNav{
+  height:$navbarLogoHeight;
+} 
+.barraNavTexto a{
+        font-size: $logoFontSize*1.1;
+        color: $logoFontColor;
+        padding-right:5px;
+      } 
+.barraNavTexto{ 
+      align-items: center;
+      text:{
+        decoration:none;
+      }
+      &__dropdown{
+        background-color:$backgroundNavbar;
+        border: none;
+        texto-align:center;
+        color:white;
+      }
+}
+
+.nav-item , .dropdown-menu{
+  background:$backgroundNavbar;
+}
+.dropdown-menu{
+  border-width: 0;
+  border-color: transparent;
+}
+.dropdown-item, .iconosRedes i{
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+.colNav{
+  height: 6.25rem;
+  padding: 0!important;
+}
+header{ 
+  margin-bottom: 7.5rem;
+}
+.navbar{
+    margin-bottom: 0px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }

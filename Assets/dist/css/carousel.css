@@ -1,0 +1,106 @@
+/* CSS Carousel  */
+
+.carousel {
+  background: lightgrey;
+  height: 36.5rem;
+  width: 62.5rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  background: lightgrey;
+  width: 62.5rem;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  padding-bottom:3.125rem;
+}
+
+.carousel-control.left {
+  margin-left: 31.25rem;
+}
+.containerCarrusel{
+  padding: 0;
+}
+.carousel-inner{
+  height: 35.25rem;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.carousel-item > img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+    
+/* RESPONSIVE CSS tablet */
+@media only screen 
+  and (min-device-width: 376px) 
+  and (max-width: 768px)  {
+  body{
+    position: relative;
+    overflow-x: hidden!important;
+  }
+  
+  .carousel-inner{
+  height: 17rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }  
+  .carousel-caption {
+  bottom: 5rem;
+  background: lightgrey;
+  width: auto;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  padding-bottom:5.125rem;
+  }
+  .carousel {
+  background: lightgrey;
+  height: 19.5rem;
+  width: 25.5rem;
+  } 
+  .carousel-caption {
+  display: none!important;
+  }
+}
+/* RESPONSIVE CSS mobile*/
+@media only screen 
+and (max-width: 375px) {
+  body{
+  position: relative;
+  overflow-x: hidden!important;
+  }
+  
+  .bodyPrincipal{
+    width: 100%;
+  }
+  .row{
+    margin: 0!!important;
+  }
+.carousel-inner{
+  height: 15rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}  
+  .carousel-caption {
+  bottom: 3rem;
+  background: lightgrey;
+  width: auto;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  padding-bottom:3.125rem;
+}
+.carousel {
+  background: lightgrey;
+  height: 17.5rem;
+  width: 23.5rem;
+}
+}

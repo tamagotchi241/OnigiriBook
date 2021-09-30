@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto+Mono:wght@300&display=swap");
+.encabezadoSuperior {
+  padding: 1rem 0 2rem 0; }
+
+.encabezadoSeccionInferior {
+  padding: 2rem 0 2rem 0; }
+
+.textoSuperior {
+  padding-bottom: 1.5rem;
+  text-align: center; }
+
+.encabezadoH2 {
+  padding: 0 0 1rem 0; }
+
+.textoBlog, .textoP {
+  padding: 1rem 0 1rem 0;
+  text-align: justify; }
+
+.lista {
+  list-style-type: none; }
+
+/* RESPONSIVE CSS tablet */
+@media only screen and (min-device-width: 376px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.9rem; }
+  h3 {
+    font-size: 1.5rem; }
+  p {
+    font-size: 1rem; } }
+
+#filaTexto404 {
+  height: 15rem; }
+
+#texto404 {
+  padding-top: 1rem;
+  text-align: center; }
+
+#texto404 h2 {
+  font-size: 3rem; }
+
+#texto404 p {
+  font-size: 2.5rem; }
+
+.logo404 {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+
+/* RESPONSIVE 404 CSS tablet */
+@media only screen and (min-device-width: 376px) and (max-width: 768px) {
+  #filaTexto404 {
+    height: 7.5rem; }
+  #texto404 h2 {
+    font-size: 2rem; }
+  #texto404 p {
+    font-size: 1.5rem; }
+  .logo404 {
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+  .logo404png {
+    padding: 0 0.6rem 0 0.6rem; } }
+
+/* CSS para Pictures */
+.imgBlog {
+  height: 20rem;
+  width: auto;
+  padding-bottom: 1rem; }
+
+.imgContacto {
+  height: 20rem;
+  justify-content: center; }
+
+.imgSobremi {
+  height: 30rem;
+  width: auto; }
+
+/* RESPONSIVE CSS tablet */
+@media only screen and (min-device-width: 376px) and (max-width: 768px) {
+  .imgBlog {
+    height: 12rem;
+    width: auto; } }
+
+/* RESPONSIVE CSS mobile*/
+@media only screen and (max-width: 375px) {
+  .imgSobremi {
+    height: 15rem; } }
+
+/* RESPONSIVE CSS iphone5*/
+@media only screen and (max-width: 374px) {
+  .imgBlogVistaMobile {
+    width: 21.4rem; } }
+
+header a:hover, .dropdown-item:hover, .iconosRedes i:hover {
+  color: whitesmoke !important;
+  transition: 200ms linear;
+  text-decoration: none;
+  background: #008E9B; }
+
+/*  CSS para nav bar */
+.barraNav {
+  background-color: #008E9B; }
+
+.logoNav {
+  height: 4.37rem; }
+
+.barraNavTexto a {
+  font-size: 1.1rem;
+  color: white;
+  padding-right: 5px; }
+
+.barraNavTexto {
+  align-items: center;
+  text-decoration: none; }
+  .barraNavTexto__dropdown {
+    background-color: #008E9B;
+    border: none;
+    texto-align: center;
+    color: white; }
+
+.nav-item, .dropdown-menu {
+  background: #008E9B; }
+
+.dropdown-menu {
+  border-width: 0;
+  border-color: transparent; }
+
+.dropdown-item, .iconosRedes i {
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+.colNav {
+  height: 6.25rem;
+  padding: 0 !important; }
+
+header {
+  margin-bottom: 7.5rem; }
+
+.navbar {
+  margin-bottom: 0px !important;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+/* CSS para footer */
+.footer {
+  background-color: #008E9B;
+  color: white;
+  font-size: 0.825rem;
+  width: 100%;
+  margin-bottom: 7.5rem; }
+
+.footerPadding {
+  padding: 0; }
+
+.pagesinFooter {
+  justify-content: flex-start;
+  height: 6.25rem;
+  padding-bottom: 1rem; }
+
+.textoRedesSociales {
+  padding-top: 1rem; }
+
+.iconFooter {
+  width: 2rem;
+  height: 2rem;
+  padding-left: 0.125rem; }
+
+.iconosRedes li {
+  padding: 0 0.4rem;
+  list-style: none; }
+
+.iconosRedes i {
+  font-size: 1.4rem; }
+
+.emailSuscripcion {
+  font-size: 0.625rem;
+  width: 14rem; }
+
+/* RESPONSIVE footer CSS tablet */
+@media only screen and (min-device-width: 376px) and (max-width: 768px) {
+  .footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center; }
+  .footerPadding {
+    padding: 0;
+    height: 6.25rem; }
+  .pagesinFooter {
+    text-align: left; }
+  .pagesinFooter {
+    display: flex;
+    height: 0.625rem; }
+  .invisibleMediaQuery {
+    display: none !important; } }
+
+/* RESPONSIVE footer CSS mobile*/
+@media only screen and (max-width: 375px) {
+  .pagesinFooter {
+    display: flex; }
+  .textoRedesSociales {
+    padding-top: 0; } }
+
+/* RESPONSIVE CSS iphone5*/
+@media only screen and (max-width: 320px) {
+  .footer {
+    width: 21.2rem; } }
+
+/*  CSS general*/
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0 !important; }
+
+a:visited {
+  color: white; }
+
+#linkInterno {
+  color: black !important;
+  font-weight: bold !important; }
+
+a:any-link {
+  text-decoration: none;
+  color: white; }
+
+body {
+  background-color: #FFF7EC;
+  color: #1a6e7a;
+  min-width: fit-content !important; }
+
+.container-fluid {
+  padding: 0 !important;
+  margin: 0px !important; }
