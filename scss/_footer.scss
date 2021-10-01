@@ -16,9 +16,7 @@
   height: 6.25rem;
   padding-bottom: 1rem;
 }
-.textoRedesSociales{
-  padding-top: 1rem;
-}
+
 .iconFooter{
   width: 2rem;
   height: 2rem;
@@ -38,7 +36,7 @@
 
 /* RESPONSIVE footer CSS tablet */
 @media only screen 
-  and (min-device-width: 376px) 
+  and (min-device-width: 414px) 
   and (max-width: 768px)  {
 .footer{
     position: absolute;
@@ -63,23 +61,24 @@
   }
 }
 /* RESPONSIVE footer CSS mobile*/
-@media only screen 
-and (max-width: 375px) {
-  .footer{
-    font-size: 0.9rem!important;
-  }
-  .pagesinFooter{
-    display: flex;
-  }
+@media only screen  and (min-device-width: 321px) 
+  and (max-width: 414px) {
   .textoRedesSociales{
-  padding-top: 0;
+    font-size: 0.9rem;
   }
  }
+
 
 /* RESPONSIVE CSS iphone5*/
 @media only screen 
 and (max-width: 320px) { 
   .footer{
-    width: 21.2rem;
+    width: 320px;
+  }
+  .linkRedesSociales{
+  width: 8rem;
+  }
+  .textoRedesSociales{
+   font-size: 0.8rem;
   }   
 } 
