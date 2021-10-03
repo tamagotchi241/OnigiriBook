@@ -5,3 +5,20 @@ header a:hover, .dropdown-item:hover, .iconosRedes  i:hover{
   text-decoration: none;
   background:$backgroundNavbar;
 }
+
+/* RESPONSIVE CSS tablet */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-width: 768px)  {  
+.imagenDescripcion {
+  font-size:1.8rem;
+}
+}
+
+/* RESPONSIVE CSS iphone5*/
+@media only screen 
+and (max-width: 320px) { 
+.imagenDescripcion {
+  font-size:1rem;
+}
+} 

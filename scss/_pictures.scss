@@ -1,6 +1,9 @@
 /* CSS para Pictures */
+.pictureIndex{
+  
+}
 .imgBlog{
-  height: 20rem;
+  height: 18rem;
   width: auto;
   padding-bottom: 1rem;
 }
@@ -29,34 +32,53 @@
   visibility: hidden;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
-  font-size: 2.5rem!important;
+  font-size: 2.5rem;
 }
 
 .imgWrap:hover .imagenDescripcion{
   visibility:visible;
   opacity:1;
 }
-    
 /* RESPONSIVE CSS tablet */
 @media only screen 
-  and (min-device-width: 376px) 
-  and (max-width: 768px)  {  
+  and (min-device-width: 737px) 
+  and (max-width: 1024px)  { 
   .imgBlog{
   height: 12rem;
   width: auto;
 	}
+.imgWrap{
+  width:18rem;
 }
-/* RESPONSIVE CSS mobile*/
+}
+/* RESPONSIVE CSS mobile　iPhone８*/
 @media only screen 
-and (max-width: 375px) { 
+and (min-device-width: 371px) 
+and (max-width: 736px) {
+  .colCard{
+  width:22rem;
+  padding-left:0;
+  padding-right:0;
+  }
+  .colIndexTexto{
+  padding-left:0;
+  padding-right:0;
+  }
 	.imgSobremi{
 	  height: 15rem;
 	}   
+
 } 
-/* RESPONSIVE CSS iphone5*/
+/* RESPONSIVE CSS mobile iphone5*/
 @media only screen 
-and (max-width: 374px) { 
-	.imgBlogVistaMobile{
-	  width: 21.4rem;
-	}   
+and (min-device-width: 200px) 
+and (max-width: 370px) {
+  .imgWrap{
+  width:17.2rem;
+}
+  .colCard{
+  width:20rem;
+  }
 } 
+
+

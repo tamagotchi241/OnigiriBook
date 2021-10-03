@@ -1,26 +1,29 @@
 /* CSS Carousel  */
 
 .carousel {
-  background: lightgrey;
-  height: 36.5rem;
-  width: 62.5rem;
+  height: 35rem;
+  width: 61rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 0;
   background: lightgrey;
-  width: 62.5rem;
+  width: 61rem;
   right: 0;
   left: 0;
   padding-top: 0;
-  padding-bottom:3.125rem;
+  z-index: 10;
 }
 
-.carousel-control.left {
-  margin-left: 31.25rem;
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    align-items: flex-end;
 }
 .containerCarrusel{
   padding: 0;
+}
+.carousel-item{
+  height: 35.25rem;
 }
 .carousel-inner{
   height: 35.25rem;
@@ -33,71 +36,90 @@
   padding: 0;
   object-fit: cover;
 }
+.paddingCarousel{
+  padding-left: 0!important;
+  padding-right: 0!important;
 
+}
     
 /* RESPONSIVE CSS tablet */
 @media only screen 
-  and (min-device-width: 376px) 
-  and (max-width: 768px)  {
+  and (min-device-width: 737px) 
+  and (max-width: 1024px)  {
   body{
     position: relative;
     overflow-x: hidden!important;
   }
   
-  .carousel-inner{
-  height: 17rem;
-  margin: 0;
-  padding: 0;
-  }  
-  .carousel-caption {
-  bottom: 5rem;
-  background: lightgrey;
-  width: auto;
-  right: 0;
-  left: 0;
-  padding-top: 0;
-  padding-bottom:5.125rem;
-  }
-  .carousel {
-  background: lightgrey;
-  height: 17rem;
-  width: 23rem;
-  } 
-  .carousel-caption {
-  display: none!important;
-  }
+.carousel {
+  height: 22rem;
+  width: 35rem;
 }
-/* RESPONSIVE CSS mobile*/
-@media only screen 
-and (max-width: 375px) {
-  body{
-  position: relative;
-  overflow-x: hidden!important;
-  }
-  
-  .bodyPrincipal{
-    width: 100%;
-  }
-  .row{
-    margin: 0!!important;
-  }
+
 .carousel-inner{
-  height: 15rem;
-  margin: 0;
-  padding: 0;
-}  
-  .carousel-caption {
-  bottom: 3rem;
-  background: lightgrey;
-  width: auto;
-  right: 0;
-  left: 0;
-  padding-top: 0;
-  padding-bottom:3.125rem;
+  height: 22rem;
+
 }
+.carousel-item{
+  height: 22.5rem;
+}
+.carousel-caption{
+  width: 35rem;
+}
+
+}
+
+/* RESPONSIVE CSS mobile　iPhone８*/
+@media only screen 
+and (min-device-width: 376px) 
+and (max-width: 736px) {
+
 .carousel {
   background: lightgrey;
+  height: 26rem;
+  width: 25rem;
+}
+  .carousel-inner{
+  height: 27rem;
+} 
+.carousel-item{
+  height: 26rem;
+}
+.carousel-caption{
+  width: 25rem;
+}
+.textoPrincipal, .textoSecundario{
+  font-size: 1rem;
+}
+}
+
+/* RESPONSIVE CSS mobile iphone5*/
+@media only screen 
+and (min-device-width: 200px) 
+and (max-width: 375px) {
+
+  .carousel-inner{
+  height: 17rem;
+}  
+  .carousel-caption {
+  display: none;
+}
+.carousel {
+  height: 17rem;
+  width: 18rem;
+}
+
+.carousel-item{
   height: 17.5rem;
-  width: 23.5rem;
+}
+.carousel-caption{
+  width: 18rem;
+}
+.paddingCarousel{
+  margin-right: 45px!important;
+}
+.colSuperiorIndex{
+ padding-left: 0!important;
+  padding-right: 0!important;
 }
 }
