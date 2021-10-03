@@ -76,14 +76,14 @@ and (max-width: 736px) {
 
 .carousel {
   background: lightgrey;
-  height: 26rem;
-  width: 25rem;
+  height: 24rem;
+  width: 23rem;
 }
   .carousel-inner{
-  height: 27rem;
+  height: 24rem;
 } 
 .carousel-item{
-  height: 26rem;
+  height: 23rem;
 }
 .carousel-caption{
   width: 25rem;
@@ -91,6 +91,19 @@ and (max-width: 736px) {
 .textoPrincipal, .textoSecundario{
   font-size: 1rem;
 }
+.carouselCoaching{
+  background: transparent;
+  height: 17rem;
+} 
+
+.carousel-innerCoaching{
+  height: 17rem;
+}
+
+.carousel-itemCoaching{
+  height: 17rem;
+}
+
 }
 
 /* RESPONSIVE CSS mobile iphone5*/
